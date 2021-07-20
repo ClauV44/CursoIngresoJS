@@ -1,8 +1,17 @@
+/*Ejercicio 8 - instrucciónIf
+Alumna: Claudia Vila*/
+
 function mostrar()
 {
-	//tomo la edad  
-	alert("ok");
-	
+	var edad;
+    var estado;
 
+    edad=parseInt(document.getElementById("txtIdEdad").value);
+    estado= document.getElementById("estadoCivil").value;
 
-}//FIN DE LA FUNCIÓN
+    if (edad > 18 && estado == "Soltero") 
+    {
+    	alert ("Es soltero y no es menor.");
+    }
+}
+

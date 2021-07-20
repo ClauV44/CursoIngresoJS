@@ -1,6 +1,12 @@
+/*Ejercicio 9 - instrucciónIf
+Alumna: Claudia Vila*/
+
+
 function mostrar()
 {
-	//Genero el número RANDOM entre 1 y 10 
-	alert("ok");	
+	var numero;
 
-}//FIN DE LA FUNCIÓN
+    numero= parseInt (Math.random ()*10) + 1;
+
+    alert(numero);
+}

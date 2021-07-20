@@ -1,3 +1,6 @@
+/*Ejercicio 3 - While
+Alumna: Claudia Vila */
+
 /*
 al presionar el botón pedir la CLAVE (ayuda: es utn750)*/
 function mostrar()

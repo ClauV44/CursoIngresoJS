@@ -1,7 +1,14 @@
+/*Ejercicio 2 - instrucciónIf
+Alumna: Claudia Vila*/
+
+
 function mostrar()
 {
-	//tomo la edad  
-	alert("ok");
-	
+	var edad;
+	edad= parseInt(document.getElementById("txtIdEdad").value);
 
-}//FIN DE LA FUNCIÓN
+	if (edad >= 18) 
+	{
+		alert ("Usted es mayor de edad al tener " + edad + " años");
+	}
+}

@@ -1,6 +1,17 @@
+/*Ejercicio 5 - instrucciónIf
+Alumna: Claudia Vila*/
+
 function mostrar()
 {
-	//tomo la edad  
-	alert("ok");
+	var edad;
+	edad= parseInt(document.getElementById("txtIdEdad").value);
 
-}//FIN DE LA FUNCIÓN
+	if (edad >= 13 && edad <=17) 
+	{
+		alert("Eres adolescente. Tu edad es de " + edad + " años.");
+	}
+	else 
+	{
+		alert ("No eres adolescente. Tu edad es de " + edad + " años.");
+	}
+}
